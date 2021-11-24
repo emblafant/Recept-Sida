@@ -1,0 +1,147 @@
+/*Fonts */
+
+@font-face {
+  font-family: "Emblafont-Regular";
+  src: url(Emblafont-Regular.otf);
+}
+
+@font-face {
+  font-family: "Scribbly-Emblafant-Regular";
+  src: url(ScribblyEmblafant-Regular.otf);
+}
+
+* {
+  font-family: "Emblafont-Regular", Calibri, sans-serif;
+  color: #193f6a;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+h1, h2, h3 {
+  font-family: "Scribbly-Emblafant-Regular", "Gill Sans", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 40px;
+  color: #f8ebe1;
+  text-shadow: 5px 5px #193f6a;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+
+/*misc*/
+
+hr {
+  size: 20px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+
+ul {
+  padding: 0;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  margin: 10px 0px
+}
+
+/*sections*/
+
+body {
+  background-color: #f2aea3;
+  margin: 20px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+
+article {
+  background: #f8ebe1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/*section 1*/
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 40vh;
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+
+img {
+  display: flex;
+  width: 700px;
+  border-radius: 10px;
+  filter: saturate(50%);
+}
+
+/* section 2*/
+
+.section-2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/*section 3*/
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.other-recipes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  background: #f2aea3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+a:hover {
+  filter: opacity(80%);
+}
